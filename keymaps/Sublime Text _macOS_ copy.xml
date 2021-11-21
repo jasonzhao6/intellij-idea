@@ -1,4 +1,7 @@
 <keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl meta alt w" />
+  </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
