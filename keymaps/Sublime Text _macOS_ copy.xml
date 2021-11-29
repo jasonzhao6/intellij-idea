@@ -58,6 +58,9 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta d" />
@@ -169,6 +172,9 @@
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
     <keyboard-shortcut first-keystroke="shift meta period" />
@@ -209,6 +215,9 @@
   </action>
   <action id="PinActiveTabToggle">
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="PopupMenu-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="PrevSplitter" />
   <action id="RecentFiles" />
@@ -260,6 +269,9 @@
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="Tree-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="Tree-selectParent">
     <keyboard-shortcut first-keystroke="left" />
