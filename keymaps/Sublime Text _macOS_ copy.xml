@@ -34,6 +34,16 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
@@ -45,6 +55,9 @@
   <action id="EditorDeleteToLineEnd" />
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
   </action>
   <action id="EditorMoveDownAndScroll">
     <keyboard-shortcut first-keystroke="shift meta down" />
@@ -166,6 +179,9 @@
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="List-selectPreviousColumn">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="MoveStatementDown">
@@ -173,6 +189,9 @@
   </action>
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="NavBar-selectLeft">
+    <keyboard-shortcut first-keystroke="left" />
   </action>
   <action id="NextSplitter" />
   <action id="PasteMultiple">
@@ -205,6 +224,9 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="ShowProjectStructureSettings" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
@@ -226,6 +248,9 @@
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
   <action id="TodoViewGroupByFlattenPackage" />
+  <action id="Tree-selectParent">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
