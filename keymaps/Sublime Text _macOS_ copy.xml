@@ -44,6 +44,9 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
@@ -149,6 +152,9 @@
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
+  <action id="List-scrollDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
   <action id="NextSplitter" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="meta alt v" />
@@ -164,6 +170,10 @@
   </action>
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
@@ -184,6 +194,9 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Table-scrollDownChangeSelection">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
