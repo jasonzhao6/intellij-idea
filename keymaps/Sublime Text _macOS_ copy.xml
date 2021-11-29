@@ -1,4 +1,8 @@
 <keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+  <action id="ActivateCommitToolWindow" />
+  <action id="Adtui.ZoomToActualAction">
+    <keyboard-shortcut first-keystroke="meta numpad0" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl meta alt w" />
   </action>
@@ -18,6 +22,9 @@
   <action id="EditorDeleteToLineEnd" />
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
