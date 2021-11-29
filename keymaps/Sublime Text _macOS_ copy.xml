@@ -46,6 +46,12 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorMoveDownAndScroll">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="EditorMoveUpAndScroll">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -160,6 +166,8 @@
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
   <action id="NextSplitter" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="meta alt v" />
@@ -218,6 +226,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.openCopilot">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
