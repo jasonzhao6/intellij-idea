@@ -211,7 +211,6 @@
   </action>
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="meta alt n" />
-    <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
   <action id="NextSplitter" />
   <action id="PackageFile" />
@@ -240,6 +239,9 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Scratch.ShowFilesPopup">
+    <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
