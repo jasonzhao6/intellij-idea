@@ -1,4 +1,7 @@
 <keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
@@ -15,6 +18,9 @@
   <action id="ActivateVersionControlToolWindow" />
   <action id="Adtui.ZoomToActualAction">
     <keyboard-shortcut first-keystroke="meta numpad0" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl meta alt w" />
@@ -50,6 +56,9 @@
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift meta d" />
@@ -130,6 +139,9 @@
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="Github.Open.In.Browser">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="GoToLastTab">
@@ -178,6 +190,7 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
     <keyboard-shortcut first-keystroke="shift meta period" />
@@ -300,5 +313,6 @@
   <action id="copilot.openCopilot">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
