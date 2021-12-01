@@ -53,6 +53,7 @@
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="CompileFile" />
+  <action id="Debug" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -61,7 +62,7 @@
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDeleteToLineEnd" />
   <action id="EditorDeleteToLineStart">
@@ -303,6 +304,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
