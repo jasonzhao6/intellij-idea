@@ -215,16 +215,6 @@
   <action id="List-selectPreviousColumn">
     <keyboard-shortcut first-keystroke="left" />
   </action>
-  <action id="MoveLineDown" />
-  <action id="MoveLineUp" />
-  <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="ctrl meta down" />
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
-  <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="ctrl meta up" />
-    <keyboard-shortcut first-keystroke="shift meta up" />
-  </action>
   <action id="NavBar-selectLeft">
     <keyboard-shortcut first-keystroke="left" />
   </action>
