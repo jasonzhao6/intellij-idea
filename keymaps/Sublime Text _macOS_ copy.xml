@@ -192,6 +192,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
     <keyboard-shortcut first-keystroke="shift meta period" />
@@ -241,6 +245,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="ReopenClosedTab" />
   <action id="Rerun" />
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt r" />
@@ -248,6 +253,7 @@
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="ctrl meta z" />
   </action>
+  <action id="ResourceExplorer.show" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
@@ -261,6 +267,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="SendEOF" />
+  <action id="ServiceView.ShowServices" />
   <action id="SetShortcutAction" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl s" />
