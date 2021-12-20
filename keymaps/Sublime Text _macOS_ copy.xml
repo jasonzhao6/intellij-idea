@@ -142,6 +142,10 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="meta e" />
@@ -280,6 +284,7 @@
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
   <action id="SetShortcutAction" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
@@ -341,5 +346,6 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
 </keymap>
