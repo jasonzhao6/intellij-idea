@@ -27,6 +27,14 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl meta alt w" />
   </action>
@@ -58,7 +66,9 @@
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="CompileFile" />
-  <action id="Debug" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -133,6 +143,7 @@
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
   <action id="ExternalJavaDoc" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
@@ -203,7 +214,6 @@
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="shift meta r" />
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="HippieBackwardCompletion">
@@ -215,6 +225,7 @@
     <keyboard-shortcut first-keystroke="meta period" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
+  <action id="IncrementalSearch" />
   <action id="Inline" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
@@ -348,4 +359,5 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>
