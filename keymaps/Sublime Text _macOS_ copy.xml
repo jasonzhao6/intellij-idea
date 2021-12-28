@@ -299,6 +299,7 @@
   <action id="ServiceView.ShowServices" />
   <action id="SetShortcutAction" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
