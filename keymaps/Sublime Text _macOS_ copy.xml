@@ -66,9 +66,7 @@
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="CompileFile" />
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="meta i" />
-  </action>
+  <action id="Debug" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -356,6 +354,9 @@
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.openCopilot">
