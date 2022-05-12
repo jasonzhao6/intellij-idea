@@ -369,6 +369,10 @@
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="shift meta f8" />
+    <keyboard-shortcut first-keystroke="shift meta f2" />
+  </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.openCopilot">
     <keyboard-shortcut first-keystroke="ctrl c" />
