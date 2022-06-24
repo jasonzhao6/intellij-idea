@@ -377,6 +377,10 @@
     <keyboard-shortcut first-keystroke="shift meta f2" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
+  <action id="copilot.enableCopilot">
+    <keyboard-shortcut first-keystroke="shift meta alt o" />
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+  </action>
   <action id="copilot.openCopilot">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
