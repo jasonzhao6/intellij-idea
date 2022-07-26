@@ -387,6 +387,16 @@
     <keyboard-shortcut first-keystroke="shift meta f2" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="copilot.cyclePrevInlays">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
   <action id="copilot.enableCopilot">
     <keyboard-shortcut first-keystroke="shift meta alt o" />
     <keyboard-shortcut first-keystroke="ctrl meta c" />
