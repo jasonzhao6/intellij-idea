@@ -316,6 +316,9 @@
   <action id="ServiceView.ShowServices" />
   <action id="SetShortcutAction" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="shift meta f2" />
+  </action>
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl s" />
@@ -355,7 +358,7 @@
   <action id="ToggleFullScreen" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="meta f8" />
-    <keyboard-shortcut first-keystroke="meta alt f2" />
+    <keyboard-shortcut first-keystroke="meta f3" />
   </action>
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl v" />
@@ -384,7 +387,7 @@
   </action>
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift meta f8" />
-    <keyboard-shortcut first-keystroke="shift meta f2" />
+    <keyboard-shortcut first-keystroke="shift meta f3" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.cycleNextInlays">
