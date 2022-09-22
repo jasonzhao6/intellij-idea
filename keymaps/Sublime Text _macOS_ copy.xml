@@ -69,6 +69,9 @@
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="CompileFile" />
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
@@ -299,6 +302,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
