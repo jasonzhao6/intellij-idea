@@ -149,7 +149,33 @@
     <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
+    <keyboard-shortcut first-keystroke="meta alt 0" />
+  </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="1" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad1" />
     <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="2" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad2" />
+    <keyboard-shortcut first-keystroke="meta alt 3" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="3" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad3" />
+    <keyboard-shortcut first-keystroke="meta alt 4" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="4" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad4" />
+    <keyboard-shortcut first-keystroke="meta alt 5" />
+  </action>
+  <action id="ExpandAllToLevel5">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="5" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad5" />
+    <keyboard-shortcut first-keystroke="meta alt 6" />
   </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt add" />
@@ -264,6 +290,7 @@
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="meta alt n" />
   </action>
+  <action id="NextProjectWindow" />
   <action id="NextSplitter" />
   <action id="PackageFile" />
   <action id="PasteMultiple">
