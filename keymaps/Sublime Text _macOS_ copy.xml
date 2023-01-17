@@ -53,7 +53,7 @@
   <action id="CollapseBlock" />
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
-    <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="shift f1" />
   </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
@@ -180,7 +180,7 @@
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt add" />
     <keyboard-shortcut first-keystroke="meta alt equals" />
-    <keyboard-shortcut first-keystroke="shift f1" />
+    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ExternalJavaDoc" />
   <action id="ExternalSystem.ProjectRefreshAction" />
