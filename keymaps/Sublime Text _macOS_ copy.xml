@@ -148,6 +148,7 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="meta alt 0" />
     <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="1" />
