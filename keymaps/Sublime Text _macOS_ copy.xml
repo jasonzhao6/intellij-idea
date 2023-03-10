@@ -78,6 +78,11 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
+  <action id="EditorDecreaseFontSize" />
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -92,6 +97,11 @@
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorIncreaseFontSize" />
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
