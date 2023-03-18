@@ -6,8 +6,8 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
-      <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="cron" type="PLAIN_TEXT" />
+      <mapping pattern="*.sh.tpl" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
