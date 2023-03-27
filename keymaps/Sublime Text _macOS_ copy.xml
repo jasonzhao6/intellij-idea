@@ -2,6 +2,9 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
