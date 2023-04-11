@@ -8,7 +8,9 @@
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
-  <action id="ActivateFindToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta quote" />
@@ -19,7 +21,6 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift meta semicolon" />
-    <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
   <action id="ActivateVersionControlToolWindow" />
   <action id="Adtui.ZoomToActualAction">
