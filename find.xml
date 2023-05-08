@@ -12,7 +12,7 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.tf</mask>
     <mask>*</mask>
+    <mask>*.tf</mask>
   </component>
 </application>
