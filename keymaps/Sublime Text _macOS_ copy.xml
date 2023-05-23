@@ -218,6 +218,9 @@
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
