@@ -81,6 +81,8 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -320,8 +322,13 @@
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="meta alt n" />
   </action>
+  <action id="NextEditorTab" />
   <action id="NextProjectWindow" />
   <action id="NextSplitter" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
   <action id="OpenFile" />
   <action id="PackageFile" />
   <action id="PasteMultiple">
@@ -334,6 +341,10 @@
     <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="PrevSplitter" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="ProblemsView.QuickFixes" />
   <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction" />
@@ -360,6 +371,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="Scala.Desugar" />
   <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
