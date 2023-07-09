@@ -80,7 +80,7 @@
   <action id="Compile" />
   <action id="CompileFile" />
   <action id="CopyPathFromRepositoryRootProvider">
-    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta i" />
@@ -291,10 +291,10 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="HippieBackwardCompletion">
-    <keyboard-shortcut first-keystroke="shift meta period" />
+    <keyboard-shortcut first-keystroke="shift meta escape" />
   </action>
   <action id="HippieCompletion">
-    <keyboard-shortcut first-keystroke="meta period" />
+    <keyboard-shortcut first-keystroke="meta escape" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="IncrementalSearch" />
@@ -360,6 +360,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="ReopenClosedTab" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
@@ -384,7 +387,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
   <action id="SelectAllOccurrences">
-    <keyboard-shortcut first-keystroke="ctrl meta g" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="SelectInProjectView">
