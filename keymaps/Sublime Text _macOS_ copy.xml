@@ -297,6 +297,9 @@
   <action id="List-selectPreviousColumn">
     <keyboard-shortcut first-keystroke="left" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveStatementDown" />
@@ -309,6 +312,7 @@
   </action>
   <action id="NextProjectWindow" />
   <action id="NextSplitter" />
+  <action id="OpenFile" />
   <action id="PackageFile" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="meta alt v" />
