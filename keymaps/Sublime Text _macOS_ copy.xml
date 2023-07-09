@@ -32,6 +32,9 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
@@ -217,8 +220,11 @@
     <keyboard-shortcut first-keystroke="meta alt g" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="ctrl z" />
