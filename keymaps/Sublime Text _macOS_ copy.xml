@@ -468,7 +468,7 @@
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.ShowTabbedFileHistory">
-    <keyboard-shortcut first-keystroke="meta alt y" />
+    <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift meta f8" />
