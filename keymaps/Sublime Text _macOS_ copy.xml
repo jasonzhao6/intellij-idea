@@ -87,6 +87,12 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="EditorDecreaseFontSize" />
   <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
@@ -119,11 +125,9 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="EditorMoveDownAndScroll">
-    <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="EditorMoveUpAndScroll">
-    <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="EditorPageDown">
@@ -162,7 +166,7 @@
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta b" />
