@@ -7,6 +7,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="jcard-maker" type="PLAIN_TEXT" />
       <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
+      <mapping ext="tftpl" type="PLAIN_TEXT" />
       <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping pattern="*.sh.tpl" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
