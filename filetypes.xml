@@ -1,6 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.gitignore;.hg;.polynator-template-version;.svn;.sync.yml;.terraform;.terraform-docs.yml;.terraform-version;.terraform.lock.hcl;CODEOWNERS;CVS;__pycache__;_svn;marqeta01!!;mq-developer;mq-network;mq-risk;mq-security-logging;mq-security-production;mq-security-sandbox;mq01-dev;mq01-prod;mq01-qa!!;mq01-shared;mq01-shared-infra;tfplan;vssver.scc;vssver2.scc" />
+    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.gitignore;.hg;.polynator-template-version;.svn;.sync.yml;.terraform;.terraform-docs.yml;.terraform-version;.terraform.lock.hcl;CODEOWNERS;CVS;__pycache__;_svn;marqeta01!!;mq-developer;mq-network;mq-risk;mq-security-logging;mq-security-production;mq-security-sandbox;mq01-dev!!;mq01-prod;mq01-qa!!;mq01-shared;mq01-shared-infra;tfplan;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern="Makefile" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
