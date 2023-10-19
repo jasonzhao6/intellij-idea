@@ -38,10 +38,7 @@
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.SetDefault" />
-  <action id="ChooseDebugConfiguration">
-    <keyboard-shortcut first-keystroke="ctrl alt d" />
-    <keyboard-shortcut first-keystroke="shift meta i" />
-  </action>
+  <action id="ChangesView.UnshelveSilently" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -81,9 +78,7 @@
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="meta i" />
-  </action>
+  <action id="Debug" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
@@ -272,6 +267,10 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta l" />
