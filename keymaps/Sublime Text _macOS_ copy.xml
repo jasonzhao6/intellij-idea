@@ -479,21 +479,17 @@
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.cycleNextInlays">
-    <keyboard-shortcut first-keystroke="alt close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl period" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="copilot.cyclePrevInlays">
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl comma" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
   <action id="copilot.enableCopilot">
     <keyboard-shortcut first-keystroke="shift meta alt o" />
     <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
-  <action id="copilot.openCopilot">
-    <keyboard-shortcut first-keystroke="ctrl c" />
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
