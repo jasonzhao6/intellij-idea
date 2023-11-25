@@ -4,6 +4,9 @@
   </action>
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateCommitToolWindow" />
+  <action id="ActivateCoverageToolWindow">
+    <keyboard-shortcut first-keystroke="meta period" />
+  </action>
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
@@ -288,6 +291,11 @@
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="HideActiveWindow" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift meta f12" />
+    <keyboard-shortcut first-keystroke="shift escape" />
   </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift meta escape" />
