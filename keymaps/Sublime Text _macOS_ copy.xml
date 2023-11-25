@@ -459,10 +459,6 @@
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="ToggleFullScreen" />
-  <action id="ToggleLineBreakpoint">
-    <keyboard-shortcut first-keystroke="meta f8" />
-    <keyboard-shortcut first-keystroke="meta f3" />
-  </action>
   <action id="Tree-selectNext">
     <keyboard-shortcut first-keystroke="down" />
   </action>
@@ -484,10 +480,6 @@
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift meta y" />
-  </action>
-  <action id="ViewBreakpoints">
-    <keyboard-shortcut first-keystroke="shift meta f8" />
-    <keyboard-shortcut first-keystroke="shift meta f3" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.cycleNextInlays">
