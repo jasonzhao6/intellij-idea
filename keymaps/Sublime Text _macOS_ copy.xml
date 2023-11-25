@@ -39,10 +39,6 @@
   <action id="ChangesView.Move" />
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.UnshelveSilently" />
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
-    <keyboard-shortcut first-keystroke="shift meta r" />
-  </action>
   <action id="ClassNameCompletion" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl meta alt w" />
@@ -78,7 +74,12 @@
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
-  <action id="Debug" />
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
@@ -390,9 +391,6 @@
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="alt w" />
-  </action>
-  <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl w" />
