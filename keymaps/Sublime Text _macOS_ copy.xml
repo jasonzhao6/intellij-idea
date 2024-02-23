@@ -397,6 +397,9 @@
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
