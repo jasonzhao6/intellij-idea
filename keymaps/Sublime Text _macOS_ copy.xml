@@ -134,7 +134,7 @@
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
-  <action id="EditorResetFontSize">
+  <action id="EditorResetFontSizeGlobal">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="EditorRight">
@@ -446,6 +446,7 @@
   <action id="Terminal.ClearBuffer" />
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
+  <action id="TerminalResetFontSize" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark">
