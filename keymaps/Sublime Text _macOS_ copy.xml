@@ -134,9 +134,6 @@
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
-  <action id="EditorResetFontSizeGlobal">
-    <keyboard-shortcut first-keystroke="meta 0" />
-  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
