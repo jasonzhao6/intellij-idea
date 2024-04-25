@@ -303,9 +303,6 @@
   <action id="Inline" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
-  <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="List-scrollDown">
@@ -353,6 +350,10 @@
   </action>
   <action id="ProblemsView.QuickFixes" />
   <action id="RecentFiles" />
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="Refactorings.QuickListPopupAction" />
   <action id="Refresh" />
   <action id="RenameElement">
