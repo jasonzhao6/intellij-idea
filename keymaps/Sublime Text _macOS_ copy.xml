@@ -86,14 +86,14 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="Debugger.EditFrameSource" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
+  <action id="Documentation.EditSource" />
+  <action id="DomCollectionControl.Edit" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="meta u" />
-  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
@@ -203,6 +203,7 @@
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
   <action id="ExternalJavaDoc" />
+  <action id="ExternalSystem.OpenConfig" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
@@ -213,6 +214,9 @@
   <action id="FileStructurePopup" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="FindPrevWordAtCaret">
+    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
@@ -263,6 +267,13 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
     <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
@@ -322,6 +333,7 @@
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="shift ctrl meta up" />
   </action>
+  <action id="NavBar-navigate" />
   <action id="NavBar-selectLeft">
     <keyboard-shortcut first-keystroke="left" />
   </action>
@@ -335,7 +347,10 @@
     <keyboard-shortcut first-keystroke="meta alt right" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
+  <action id="OpenBookmarkGroup" />
   <action id="OpenFile" />
+  <action id="OpenModuleSettings" />
+  <action id="PCNavigateToSource" />
   <action id="PackageFile" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="meta alt v" />
@@ -349,9 +364,9 @@
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="ProblemsView.QuickFixes" />
+  <action id="ProjectViewEditSource" />
   <action id="RecentFiles" />
   <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="shift meta e" />
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="Refactorings.QuickListPopupAction" />
@@ -468,6 +483,7 @@
   <action id="UsageGrouping.Module" />
   <action id="UsageGrouping.UsageType" />
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.EditSource" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
@@ -475,6 +491,7 @@
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
+  <action id="XDebugger.JumpToSource" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.chat.show">
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
