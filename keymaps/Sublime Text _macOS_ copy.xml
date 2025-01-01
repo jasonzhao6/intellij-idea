@@ -242,6 +242,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="Git.ResolveConflicts">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
