@@ -3,6 +3,8 @@
     <words>
       <w>histfile</w>
       <w>histsize</w>
+      <w>ownload</w>
+      <w>pload</w>
       <w>savehist</w>
       <w>yzhao</w>
       <w>zshaddhistory</w>
