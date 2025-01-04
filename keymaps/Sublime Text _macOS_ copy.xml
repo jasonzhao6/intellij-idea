@@ -91,6 +91,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="DebugClass" />
   <action id="Debugger.EditFrameSource" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
@@ -413,6 +414,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="RunDashboard.Debug" />
   <action id="Scala.Desugar" />
   <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicits">
