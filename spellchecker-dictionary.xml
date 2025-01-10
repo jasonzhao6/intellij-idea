@@ -27,6 +27,7 @@
       <w>printenv</w>
       <w>rwxr</w>
       <w>savehist</w>
+      <w>snapshotted</w>
       <w>talias</w>
       <w>terraformrc</w>
       <w>tfaa</w>
