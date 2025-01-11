@@ -225,7 +225,9 @@
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathBar" />
   <action id="FileChooser.TogglePathShowing" />
-  <action id="FileStructurePopup" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
@@ -312,9 +314,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="GotoSuperMethod" />
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="shift meta t" />
-  </action>
+  <action id="GotoSymbol" />
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta f12" />
