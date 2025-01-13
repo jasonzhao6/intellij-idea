@@ -24,6 +24,8 @@
       <w>ormat</w>
       <w>ownload</w>
       <w>pasteboards</w>
+      <w>pbcopy</w>
+      <w>pbpaste</w>
       <w>pcregrep</w>
       <w>pload</w>
       <w>printenv</w>
