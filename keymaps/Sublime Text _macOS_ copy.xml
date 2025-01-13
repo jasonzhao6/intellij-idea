@@ -41,6 +41,7 @@
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.SetDefault" />
+  <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
   <action id="ClassNameCompletion" />
   <action id="CloseAllEditors">
@@ -249,10 +250,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="Git.ResolveConflicts">
-    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
   <action id="Github.Open.In.Browser">
-    <keyboard-shortcut first-keystroke="shift meta y" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
@@ -411,7 +412,7 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="ResetToMySettings">
-    <keyboard-shortcut first-keystroke="ctrl meta y" />
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
   <action id="ResourceExplorer.show" />
   <action id="Run">
