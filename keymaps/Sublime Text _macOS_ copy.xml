@@ -381,6 +381,7 @@
     <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="PrevSplitter" />
+  <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
