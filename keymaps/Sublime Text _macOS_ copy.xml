@@ -137,7 +137,7 @@
     <keyboard-shortcut first-keystroke="left" />
   </action>
   <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -250,9 +250,11 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="Git.New.Branch.In.Log" />
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
+  <action id="GitNewBranchAction" />
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
@@ -361,7 +363,7 @@
     <keyboard-shortcut first-keystroke="left" />
   </action>
   <action id="NewScratchFile">
-    <keyboard-shortcut first-keystroke="ctrl meta n" />
+    <keyboard-shortcut first-keystroke="meta alt n" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextProjectWindow" />
@@ -434,7 +436,7 @@
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="meta period" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl w" />
