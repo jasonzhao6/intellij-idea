@@ -253,7 +253,7 @@
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
   <action id="Github.Open.In.Browser">
-    <keyboard-shortcut first-keystroke="shift meta h" />
+    <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
