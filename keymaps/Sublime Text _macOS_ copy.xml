@@ -428,6 +428,9 @@
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="ResourceExplorer.show" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
@@ -476,8 +479,20 @@
     <keyboard-shortcut first-keystroke="shift meta space" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="Svn.RefreshWorkingCopies" />
   <action id="Switcher" />
@@ -527,6 +542,10 @@
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift meta f8" />
     <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="XDebugger.AttachToProcess">
+    <keyboard-shortcut first-keystroke="shift alt f5" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
   <action id="XDebugger.JumpToSource" />
   <action id="XDebugger.MoveWatchDown" />
