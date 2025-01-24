@@ -67,11 +67,13 @@
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
     <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt subtract" />
     <keyboard-shortcut first-keystroke="meta alt minus" />
     <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="alt quote" />
   </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
@@ -156,6 +158,7 @@
   </action>
   <action id="EditorSortLines">
     <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="EditorTextEndWithSelection">
     <keyboard-shortcut first-keystroke="shift meta end" />
@@ -211,11 +214,13 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta alt close_bracket" />
     <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="alt period" />
   </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt add" />
     <keyboard-shortcut first-keystroke="meta alt equals" />
     <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="ExternalJavaDoc" />
   <action id="ExternalSystem.OpenConfig" />
@@ -255,7 +260,7 @@
   </action>
   <action id="GitNewBranchAction" />
   <action id="Github.Open.In.Browser">
-    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
@@ -420,7 +425,7 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="ResetToMySettings">
-    <keyboard-shortcut first-keystroke="ctrl meta h" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="ResourceExplorer.show" />
   <action id="Run">
@@ -445,6 +450,7 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="SelectVirtualTemplateElement" />
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
   <action id="SetShortcutAction" />
