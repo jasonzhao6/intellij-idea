@@ -260,7 +260,7 @@
   </action>
   <action id="GitNewBranchAction" />
   <action id="Github.Open.In.Browser">
-    <keyboard-shortcut first-keystroke="alt o" />
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
