@@ -334,10 +334,10 @@
   <action id="Inline" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
-    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="JumpToNextChange">
-    <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
   </action>
   <action id="Kotlin.RunScratch" />
   <action id="List-scrollDown">
@@ -392,7 +392,7 @@
   <action id="ProjectViewEditSource" />
   <action id="RecentFiles" />
   <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="alt l" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="Refactorings.QuickListPopupAction" />
   <action id="Refresh" />
@@ -432,7 +432,7 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="SelectAllOccurrences">
-    <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="meta period" />
@@ -489,9 +489,7 @@
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta f2" />
   </action>
-  <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="ctrl v" />
-  </action>
+  <action id="ToggleDistractionFreeMode" />
   <action id="ToggleFullScreen" />
   <action id="Tree-selectNext">
     <keyboard-shortcut first-keystroke="down" />
@@ -517,7 +515,10 @@
   <action id="XDebugger.JumpToSource" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.applyInlaysNextLine">
-    <keyboard-shortcut first-keystroke="shift meta right" />
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="copilot.applyInlaysNextWord">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="copilot.chat.show">
     <keyboard-shortcut first-keystroke="ctrl minus" />
