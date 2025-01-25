@@ -125,8 +125,7 @@
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
-  <action id="EditorDuplicate" />
-  <action id="EditorDuplicateLines">
+  <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorIncreaseFontSize" />
@@ -142,6 +141,9 @@
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="EditorReverseLines">
+    <keyboard-shortcut first-keystroke="shift alt a" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
