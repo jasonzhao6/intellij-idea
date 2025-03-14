@@ -8,7 +8,6 @@
     <mask>*.tpl</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
-    <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*</mask>
@@ -20,5 +19,6 @@
     <mask>*.zsh</mask>
     <mask>*keymap.zsh</mask>
     <mask>*.java</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
