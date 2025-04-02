@@ -105,6 +105,12 @@
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
+  <action id="Docker.RemoteServers.StopComposeService">
+    <keyboard-shortcut first-keystroke="shift meta alt x" />
+  </action>
+  <action id="Docker.RemoteServers.StopContainer">
+    <keyboard-shortcut first-keystroke="shift meta alt x" />
+  </action>
   <action id="Documentation.EditSource" />
   <action id="DomCollectionControl.Edit" />
   <action id="DuplicatesForm.SendToLeft" />
@@ -442,12 +448,15 @@
   </action>
   <action id="ResourceExplorer.show" />
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="alt i" />
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="RunDashboard.Debug" />
+  <action id="RunDashboard.Stop">
+    <keyboard-shortcut first-keystroke="shift meta alt x" />
+  </action>
   <action id="Scala.Desugar" />
   <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicits">
@@ -494,18 +503,18 @@
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f7" />
-    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
-    <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
-    <keyboard-shortcut first-keystroke="alt q" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="alt x" />
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="Svn.RefreshWorkingCopies" />
   <action id="Switcher" />
