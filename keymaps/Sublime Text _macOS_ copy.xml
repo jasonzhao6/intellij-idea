@@ -450,10 +450,16 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
-  <action id="RunClass">
+  <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="RunDashboard.Debug" />
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="RunDashboard.Stop">
     <keyboard-shortcut first-keystroke="shift meta alt x" />
   </action>
@@ -603,4 +609,7 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
 </keymap>
