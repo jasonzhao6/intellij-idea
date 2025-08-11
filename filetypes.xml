@@ -4,22 +4,22 @@
     <extensionMap>
       <mapping pattern="Makefile" type="AUTO_DETECTED" />
       <mapping pattern="PLACEHOLDER" type="AUTO_DETECTED" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="jcard-maker" type="PLAIN_TEXT" />
       <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
-      <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping ext="tftpl" type="PLAIN_TEXT" />
+      <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping pattern="*.sh.tpl" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
-      <removed_mapping ext="ddl" approved="true" type="SQL" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="service" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="sql" approved="true" type="SQL" />
+      <mapping ext="ddl" type="OdpsQL" />
       <mapping ext="odpsql" type="OdpsQL" />
       <mapping ext="q" type="OdpsQL" />
+      <mapping ext="sql" type="OdpsQL" />
     </extensionMap>
   </component>
 </application>
