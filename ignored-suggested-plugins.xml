@@ -3,6 +3,8 @@
     <option name="pluginIds">
       <list>
         <option value="aws.toolkit" />
+        <option value="com.jetbrains.jax.ws" />
+        <option value="com.intellij.bigdatatools.kafka" />
       </list>
     </option>
   </component>
