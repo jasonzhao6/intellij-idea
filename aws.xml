@@ -1,0 +1,31 @@
+<application>
+  <component name="authManager">
+    <option name="lastLoginIdcInfo">
+      <LastLoginIdcInfo>
+        <option name="profileName" value="d-90675ed386" />
+        <option name="region" value="us-east-1" />
+        <option name="startUrl" value="https://d-90675ed386.awsapps.com/start" />
+      </LastLoginIdcInfo>
+    </option>
+  </component>
+  <component name="aws">
+    <option name="autoUpdateFeatureNotificationShownOnce" value="true" />
+    <option name="promptedForTelemetry" value="true" />
+  </component>
+  <component name="codewhispererStates">
+    <option name="value">
+      <map>
+        <entry key="IsMonthlyQuotaForCodeScansExceeded" value="false" />
+        <entry key="IsFirstRestartAfterQInstall" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="connectionPinningManager">
+    <option name="pinnedConnections">
+      <map>
+        <entry key="aws.codewhisperer" value="sso-session:d-90675ed386" />
+        <entry key="aws.q" value="sso-session:d-90675ed386" />
+      </map>
+    </option>
+  </component>
+</application>

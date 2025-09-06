@@ -1,0 +1,24 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.tpl</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*</mask>
+    <mask>*.tf</mask>
+    <mask>variables.tf</mask>
+    <mask>*.yml</mask>
+    <mask>main.tf</mask>
+    <mask>*zsh</mask>
+    <mask>*keymap.zsh</mask>
+    <mask>*.xml</mask>
+    <mask>*.zsh</mask>
+    <mask>*.java</mask>
+  </component>
+</application>
