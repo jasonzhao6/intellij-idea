@@ -330,14 +330,14 @@
   </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="alt escape" />
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="GotoPreviousBookmark">
     <keyboard-shortcut first-keystroke="shift f2" />
-    <keyboard-shortcut first-keystroke="shift alt escape" />
+    <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
@@ -494,7 +494,7 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift meta f2" />
-    <keyboard-shortcut first-keystroke="shift alt tab" />
+    <keyboard-shortcut first-keystroke="shift meta alt tab" />
   </action>
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
@@ -544,7 +544,7 @@
   <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta f2" />
-    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="meta alt tab" />
   </action>
   <action id="ToggleDistractionFreeMode" />
   <action id="ToggleFullScreen" />
