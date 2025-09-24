@@ -10,6 +10,7 @@
   </component>
   <component name="aws">
     <option name="autoUpdateFeatureNotificationShownOnce" value="true" />
+    <option name="profilesNotification" value="Never" />
     <option name="promptedForTelemetry" value="true" />
   </component>
   <component name="codewhispererSettings">
