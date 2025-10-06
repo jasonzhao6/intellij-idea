@@ -540,6 +540,12 @@
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
   <action id="TerminalResetFontSize" />
+  <action id="TextEditorWithPreview.Layout.EditorOnly">
+    <keyboard-shortcut first-keystroke="shift alt y" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.PreviewOnly">
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark">
