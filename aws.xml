@@ -28,14 +28,6 @@
       </map>
     </option>
   </component>
-  <component name="connectionPinningManager">
-    <option name="pinnedConnections">
-      <map>
-        <entry key="aws.codewhisperer" value="sso-session:d-90675ed386" />
-        <entry key="aws.q" value="sso-session:d-90675ed386" />
-      </map>
-    </option>
-  </component>
   <component name="meetQPage">
     <option name="disclaimerAcknowledged" value="true" />
     <option name="reinvent2024OnboardingCount" value="1" />
@@ -53,24 +45,5 @@
   </component>
   <component name="notificationEtag">
     <option name="etag" value="&quot;8155ead2d484a2daeb03438d50c02e6d&quot;" />
-  </component>
-  <component name="qProfileStates">
-    <option name="connectionIdToActiveProfile">
-      <map>
-        <entry key="sso-session:d-90675ed386">
-          <value>
-            <QRegionProfile>
-              <option name="arn" value="arn:aws:codewhisperer:us-east-1:129551136154:profile/YQAXNRYYWHHQ" />
-              <option name="profileName" value="QDefaultProfile" />
-            </QRegionProfile>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="connectionIdToProfileList">
-      <map>
-        <entry key="sso-session:d-90675ed386" value="1" />
-      </map>
-    </option>
   </component>
 </application>
