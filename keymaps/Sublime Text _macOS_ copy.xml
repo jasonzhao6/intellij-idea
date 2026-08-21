@@ -568,6 +568,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
+  <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
   <action id="UsageGrouping.Module" />
