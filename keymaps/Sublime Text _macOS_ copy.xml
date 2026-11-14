@@ -459,6 +459,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="RunAnything" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
